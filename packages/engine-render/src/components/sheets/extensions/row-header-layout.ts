@@ -25,6 +25,7 @@ import { SheetExtension } from './sheet-extension';
 
 const UNIQUE_KEY = 'DefaultRowHeaderLayoutExtension';
 
+// 行头绘制
 export class RowHeaderLayout extends SheetExtension {
     override uKey = UNIQUE_KEY;
 

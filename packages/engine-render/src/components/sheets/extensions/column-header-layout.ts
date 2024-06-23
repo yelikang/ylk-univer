@@ -39,6 +39,8 @@ const DEFAULT_COLUMN_STYLE = {
     textAlign: 'center',
     textBaseline: 'middle',
 } as const;
+
+// 列头绘制
 export class ColumnHeaderLayout extends SheetExtension {
     override uKey = UNIQUE_KEY;
     override Z_INDEX = 10;

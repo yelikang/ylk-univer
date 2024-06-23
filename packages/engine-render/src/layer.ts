@@ -203,6 +203,7 @@ export class Layer extends Disposable {
         if (mainCtx) {
             if (this._allowCache && this._cacheCanvas) {
                 if (this.isDirty()) {
+                    // 使用离线缓存canvas绘制
                     const ctx = this._cacheCanvas.getContext();
 
                     this._cacheCanvas.clear();

@@ -71,6 +71,9 @@ const ctx = await esbuild[args.watch ? 'context' : 'build']({
         // homepage
         './src/main.tsx',
 
+        // demo
+        './src/demo/main.ts',
+
         // sheets
         './src/sheets/main.ts',
         './src/sheets/worker.ts',

@@ -35,6 +35,9 @@ console.table({
 
 function Examples() {
     const demos = [{
+        title: '📊 demo',
+        href: './demo/',
+    }, {
         title: '📊 Sheets',
         href: './sheets/',
     }, {
